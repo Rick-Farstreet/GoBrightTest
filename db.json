@@ -1,12 +1,12 @@
 {
-	"locations":[
+	"locations": [
 		{"Id": 2, "Name": "Alblasserdam",  "NameIdented": "- Allblasserdam", "Order": 1, "ParentId": 6, "TreeLeft": 2, "TreeRight": 7},
 		{"Id": 23,"Name": "1e verdieping", "NameIdented": "- 1e verdieping", "Order": 1, "ParentId": 2, "TreeLeft": 3, "TreeRight": 4},
 		{"Id": 24,"Name": "2e verdieping", "NameIdented": "- 2e verdieping", "Order": 2, "ParentId": 2, "TreeLeft": 5, "TreeRight": 6},
 		{"Id": 1, "Name": "Rotterdam",     "NameIdented": "- Rotterdam",     "Order": 2, "ParentId": 6, "TreeLeft": 8, "TreeRight": 9}
 	]
 	
-	"options":[
+	"options": [
 		{"Id": 11, "Description": "Beamer",  			"Icon": "mdi mdi-projector-screen", "Order": 1, "AvailableForRoom": true},
 		{"Id": 12, "Description": "Airco", 				"Icon": "mdi mdi-air-conditioner",  "Order": 2, "AvailableForRoom": true},
 		{"Id": 13, "Description": "Catering", 			"Icon": "mdi mdi-glass-flute",		"Order": 3, "AvailableForRoom": true},
@@ -15,7 +15,7 @@
 		{"Id": 31, "Description": "Pijl", 				"Icon": "mdi mdi-arrow-top-right", 	"Order": 6, "AvailableForRoom": true}
 	]
 	
-	"spaces":[
+	"spaces": [
     {
         "Id": 67,
         "StartWithOffset": "2018-09-25T11:55:00+02:00",
@@ -33,5 +33,5 @@
         "StartWithOffset": "2018-09-25T9:00:00+02:00",
 		"EndWithOffset": "2018-09-25T14:05:00+02:00",
 		"Name": "Room Three"
-    },
+    }
 ]
