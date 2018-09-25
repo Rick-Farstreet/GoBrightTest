@@ -1,0 +1,8 @@
+[
+	{"Id": 41, "Description": "Beamer",  			"Icon": "mdi mdi-projector-screen", "Order": 1, "AvailableForRoom": true},
+	{"Id": 22, "Description": "Airco", 				"Icon": "mdi mdi-air-conditioner",  "Order": 2, "AvailableForRoom": true},
+	{"Id": 63, "Description": "Catering", 			"Icon": "mdi mdi-glass-flute",		"Order": 3, "AvailableForRoom": true},
+	{"Id": 35, "Description": "Draadloos internet", "Icon": "mdi mdi-wifi",     		"Order": 4, "AvailableForRoom": true},
+	{"Id": 36, "Description": "Bussstation",  		"Icon": "mdi mdi-bus", 				"Order": 5, "AvailableForRoom": true},
+	{"Id": 81, "Description": "Pijl", 				"Icon": "mdi mdi-arrow-top-right", 	"Order": 6, "AvailableForRoom": true}
+]
