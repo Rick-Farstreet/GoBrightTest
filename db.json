@@ -1,6 +1,6 @@
-{[
+[
 	{"Id": 1, "Name": "Alblasserdam",  "NameIdented": "- Allblasserdam", "Order": 1, "ParentId": 3, "TreeLeft": 1, "TreeRight": 5},
 	{"Id": 3,"Name": "1e verdieping", "NameIdented": "- 1e verdieping", "Order": 1, "ParentId": 1, "TreeLeft": 3, "TreeRight": 3},
 	{"Id": 2,"Name": "2e verdieping", "NameIdented": "- 2e verdieping", "Order": 2, "ParentId": 6, "TreeLeft": 4, "TreeRight": 7},
 	{"Id": 14, "Name": "Rotterdam",     "NameIdented": "- Rotterdam",     "Order": 2, "ParentId": 5, "TreeLeft": 7, "TreeRight": 1}
-]}
+]
