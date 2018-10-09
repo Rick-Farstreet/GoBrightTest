@@ -86,7 +86,7 @@
 			{"Id": 16, "Description": "Bussstation",  		"Icon": "mdi mdi-bus", 				"Order": 5, "AvailableForRoom": true},
 			{"Id": 31, "Description": "Pijl", 				"Icon": "mdi mdi-arrow-top-right", 	"Order": 6, "AvailableForRoom": true}
 		],
-		"perfectState": 1,
+		"perfectState": 2,
 		"Email": "room5@bb.com"
 	}
 
@@ -151,7 +151,7 @@
 			{"Id": 16, "Description": "Bussstation",  		"Icon": "mdi mdi-bus", 				"Order": 5, "AvailableForRoom": true},
 			{"Id": 31, "Description": "Pijl", 				"Icon": "mdi mdi-arrow-top-right", 	"Order": 6, "AvailableForRoom": true}
 		],
-		"perfectState": 1,
+		"perfectState": 2,
 		"Email": "room5@bb.com"
     }
 ]
