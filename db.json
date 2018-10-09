@@ -1,8 +1,186 @@
-{	
-	"data":[
-		{"Id": 1, "Name": "Alblasserdam",  "NameIdented": "- Allblasserdam", "Order": 1, "ParentId": 3, "TreeLeft": 1, "TreeRight": 5},
-		{"Id": 3,"Name": "1e verdieping", "NameIdented": "- 1e verdieping", "Order": 1, "ParentId": 1, "TreeLeft": 3, "TreeRight": 3},
-		{"Id": 2,"Name": "2e verdieping", "NameIdented": "- 2e verdieping", "Order": 2, "ParentId": 6, "TreeLeft": 4, "TreeRight": 7},
-		{"Id": 14, "Name": "Rotterdam",     "NameIdented": "- Rotterdam",     "Order": 2, "ParentId": 5, "TreeLeft": 7, "TreeRight": 1}
-	]
+{
+	"locations":[
+		{"Id": 2, "Name": "Alblasserdam",  "NameIdented": "- Allblasserdam", "Order": 1, "ParentId": 6, "TreeLeft": 2, "TreeRight": 7},
+		{"Id": 23,"Name": "1e verdieping", "NameIdented": "- 1e verdieping", "Order": 1, "ParentId": 2, "TreeLeft": 3, "TreeRight": 4},
+		{"Id": 24,"Name": "2e verdieping", "NameIdented": "- 2e verdieping", "Order": 2, "ParentId": 2, "TreeLeft": 5, "TreeRight": 6},
+		{"Id": 1, "Name": "Rotterdam",     "NameIdented": "- Rotterdam",     "Order": 2, "ParentId": 6, "TreeLeft": 8, "TreeRight": 9}
+	],
+	
+	"options":[
+		{"Id": 11, "Description": "Beamer",  			"Icon": "mdi mdi-projector-screen", "Order": 1, "AvailableForRoom": true},
+		{"Id": 12, "Description": "Airco", 				"Icon": "mdi mdi-air-conditioner",  "Order": 2, "AvailableForRoom": true},
+		{"Id": 13, "Description": "Catering", 			"Icon": "mdi mdi-glass-flute",		"Order": 3, "AvailableForRoom": true},
+		{"Id": 15, "Description": "Draadloos internet", "Icon": "mdi mdi-wifi",     		"Order": 4, "AvailableForRoom": true},
+		{"Id": 16, "Description": "Bussstation",  		"Icon": "mdi mdi-bus", 				"Order": 5, "AvailableForRoom": true},
+		{"Id": 31, "Description": "Pijl", 				"Icon": "mdi mdi-arrow-top-right", 	"Order": 6, "AvailableForRoom": true}
+	],
+	
+	"spaces":[
+    {
+        "Id": 67,
+        "StartWithOffset": "2018-09-25T11:55:00+02:00",
+		"EndWithOffset": "2018-09-25T17:00:00+02:00",
+		"Name": "SupportRoom (test)",
+		"options":[
+			{"Id": 11, "Description": "Beamer",  			"Icon": "mdi mdi-projector-screen", "Order": 1, "AvailableForRoom": true},
+			{"Id": 12, "Description": "Airco", 				"Icon": "mdi mdi-air-conditioner",  "Order": 2, "AvailableForRoom": true},
+			{"Id": 13, "Description": "Catering", 			"Icon": "mdi mdi-glass-flute",		"Order": 3, "AvailableForRoom": true},
+			{"Id": 15, "Description": "Draadloos internet", "Icon": "mdi mdi-wifi",     		"Order": 4, "AvailableForRoom": true}
+		],
+		"perfectState": 0,
+		"Email": "SupportRoom@gobright.eu"
+		},
+	{
+        "Id": 69,
+        "StartWithOffset": "2018-09-25T16:45:00+02:00",
+		"EndWithOffset": "2018-09-25T18:00:00+02:00",
+		"Name": "Room Two",
+		"options":[
+			{"Id": 11, "Description": "Beamer",  			"Icon": "mdi mdi-projector-screen", "Order": 1, "AvailableForRoom": true},
+			{"Id": 12, "Description": "Airco", 				"Icon": "mdi mdi-air-conditioner",  "Order": 2, "AvailableForRoom": true},
+			{"Id": 13, "Description": "Catering", 			"Icon": "mdi mdi-glass-flute",		"Order": 3, "AvailableForRoom": true},
+			{"Id": 15, "Description": "Draadloos internet", "Icon": "mdi mdi-wifi",     		"Order": 4, "AvailableForRoom": true},
+			{"Id": 16, "Description": "Bussstation",  		"Icon": "mdi mdi-bus", 				"Order": 5, "AvailableForRoom": true},
+			{"Id": 31, "Description": "Pijl", 				"Icon": "mdi mdi-arrow-top-right", 	"Order": 6, "AvailableForRoom": true}
+		],
+		"perfectState": 1,
+		"Email": "room2@bb.com"
+    },
+	{
+        "Id": 67,
+        "StartWithOffset": "2018-09-25T11:55:00+02:00",
+		"EndWithOffset": "2018-09-25T17:00:00+02:00",
+		"Name": "Room One",
+		"options":[
+			{"Id": 11, "Description": "Beamer",  			"Icon": "mdi mdi-projector-screen", "Order": 1, "AvailableForRoom": true},
+			{"Id": 12, "Description": "Airco", 				"Icon": "mdi mdi-air-conditioner",  "Order": 2, "AvailableForRoom": true},
+			{"Id": 13, "Description": "Catering", 			"Icon": "mdi mdi-glass-flute",		"Order": 3, "AvailableForRoom": true},
+			{"Id": 15, "Description": "Draadloos internet", "Icon": "mdi mdi-wifi",     		"Order": 4, "AvailableForRoom": true}
+		],
+		"perfectState": 0,
+		"Email": "space@bb.com"
+    },
+	{
+        "Id": 17,
+        "StartWithOffset": "2018-09-25T09:00:00+02:00",
+		"EndWithOffset": "2018-09-25T14:05:00+02:00",
+		"Name": "Room Three",
+		"options":[
+			{"Id": 11, "Description": "Beamer",  			"Icon": "mdi mdi-projector-screen", "Order": 1, "AvailableForRoom": true}
+		],
+		"perfectState": 2,
+		"Email": "room3@bb.com"
+    },
+	{
+        "Id": 692,
+        "StartWithOffset": "2018-09-25T16:45:00+02:00",
+		"EndWithOffset": "2018-09-25T18:00:00+02:00",
+		"Name": "Room Four",
+		"options":[
+			{"Id": 11, "Description": "Beamer",  			"Icon": "mdi mdi-projector-screen", "Order": 1, "AvailableForRoom": true},
+			{"Id": 12, "Description": "Airco", 				"Icon": "mdi mdi-air-conditioner",  "Order": 2, "AvailableForRoom": true},
+			{"Id": 13, "Description": "Catering", 			"Icon": "mdi mdi-glass-flute",		"Order": 3, "AvailableForRoom": true},
+			{"Id": 15, "Description": "Draadloos internet", "Icon": "mdi mdi-wifi",     		"Order": 4, "AvailableForRoom": true},
+			{"Id": 16, "Description": "Bussstation",  		"Icon": "mdi mdi-bus", 				"Order": 5, "AvailableForRoom": true},
+			{"Id": 31, "Description": "Pijl", 				"Icon": "mdi mdi-arrow-top-right", 	"Order": 6, "AvailableForRoom": true}
+		],
+		"perfectState": 1,
+		"Email": "room4@bb.com"
+    },
+	{
+        "Id": 619,
+        "StartWithOffset": "2018-09-25T16:45:00+02:00",
+		"EndWithOffset": "2018-09-25T18:00:00+02:00",
+		"Name": "Room five",
+		"options":[
+			{"Id": 11, "Description": "Beamer",  			"Icon": "mdi mdi-projector-screen", "Order": 1, "AvailableForRoom": true},
+			{"Id": 12, "Description": "Airco", 				"Icon": "mdi mdi-air-conditioner",  "Order": 2, "AvailableForRoom": true},
+			{"Id": 13, "Description": "Catering", 			"Icon": "mdi mdi-glass-flute",		"Order": 3, "AvailableForRoom": true},
+			{"Id": 15, "Description": "Draadloos internet", "Icon": "mdi mdi-wifi",     		"Order": 4, "AvailableForRoom": true},
+			{"Id": 16, "Description": "Bussstation",  		"Icon": "mdi mdi-bus", 				"Order": 5, "AvailableForRoom": true},
+			{"Id": 31, "Description": "Pijl", 				"Icon": "mdi mdi-arrow-top-right", 	"Order": 6, "AvailableForRoom": true}
+		],
+		"perfectState": 1,
+		"Email": "room5@bb.com"
+	}
+
+],	
+	"queryspaces":[
+	 {
+        "Id": 67,
+        "StartWithOffset": "2018-09-25T11:55:00+02:00",
+		"EndWithOffset": "2018-09-25T17:00:00+02:00",
+		"Name": "SupportRoom (test)",
+		"options":[
+			{"Id": 11, "Description": "Beamer",  			"Icon": "mdi mdi-projector-screen", "Order": 1, "AvailableForRoom": true},
+			{"Id": 12, "Description": "Airco", 				"Icon": "mdi mdi-air-conditioner",  "Order": 2, "AvailableForRoom": true},
+			{"Id": 13, "Description": "Catering", 			"Icon": "mdi mdi-glass-flute",		"Order": 3, "AvailableForRoom": true},
+			{"Id": 15, "Description": "Draadloos internet", "Icon": "mdi mdi-wifi",     		"Order": 4, "AvailableForRoom": true}
+		],
+		"perfectState": 0,
+		"Email": "SupportRoom@gobright.eu"
+	},
+    {
+        "Id": 67,
+        "StartWithOffset": "2018-09-25T11:55:00+02:00",
+		"EndWithOffset": "2018-09-25T17:00:00+02:00",
+		"Name": "Room One",
+		"options":[
+			{"Id": 11, "Description": "Beamer",  			"Icon": "mdi mdi-projector-screen", "Order": 1, "AvailableForRoom": true},
+			{"Id": 12, "Description": "Airco", 				"Icon": "mdi mdi-air-conditioner",  "Order": 2, "AvailableForRoom": true},
+			{"Id": 13, "Description": "Catering", 			"Icon": "mdi mdi-glass-flute",		"Order": 3, "AvailableForRoom": true},
+			{"Id": 15, "Description": "Draadloos internet", "Icon": "mdi mdi-wifi",     		"Order": 4, "AvailableForRoom": true}
+		],
+		"perfectState": 0,
+		"Email": "space@bb.com"
+    },
+	{
+        "Id": 69,
+        "StartWithOffset": "2018-09-25T16:45:00+02:00",
+		"EndWithOffset": "2018-09-25T18:00:00+02:00",
+		"Name": "Room Four",
+		"options":[
+			{"Id": 11, "Description": "Beamer",  			"Icon": "mdi mdi-projector-screen", "Order": 1, "AvailableForRoom": true},
+			{"Id": 12, "Description": "Airco", 				"Icon": "mdi mdi-air-conditioner",  "Order": 2, "AvailableForRoom": true},
+			{"Id": 13, "Description": "Catering", 			"Icon": "mdi mdi-glass-flute",		"Order": 3, "AvailableForRoom": true},
+			{"Id": 15, "Description": "Draadloos internet", "Icon": "mdi mdi-wifi",     		"Order": 4, "AvailableForRoom": true},
+			{"Id": 16, "Description": "Bussstation",  		"Icon": "mdi mdi-bus", 				"Order": 5, "AvailableForRoom": true},
+			{"Id": 31, "Description": "Pijl", 				"Icon": "mdi mdi-arrow-top-right", 	"Order": 6, "AvailableForRoom": true}
+		],
+		"perfectState": 1,
+		"Email": "room4@bb.com"
+    },
+	{
+        "Id": 692,
+        "StartWithOffset": "2018-09-25T16:45:00+02:00",
+		"EndWithOffset": "2018-09-25T18:00:00+02:00",
+		"Name": "Room Two",
+		"options":[
+			{"Id": 11, "Description": "Beamer",  			"Icon": "mdi mdi-projector-screen", "Order": 1, "AvailableForRoom": true},
+			{"Id": 12, "Description": "Airco", 				"Icon": "mdi mdi-air-conditioner",  "Order": 2, "AvailableForRoom": true},
+			{"Id": 13, "Description": "Catering", 			"Icon": "mdi mdi-glass-flute",		"Order": 3, "AvailableForRoom": true},
+			{"Id": 15, "Description": "Draadloos internet", "Icon": "mdi mdi-wifi",     		"Order": 4, "AvailableForRoom": true},
+			{"Id": 16, "Description": "Bussstation",  		"Icon": "mdi mdi-bus", 				"Order": 5, "AvailableForRoom": true},
+			{"Id": 31, "Description": "Pijl", 				"Icon": "mdi mdi-arrow-top-right", 	"Order": 6, "AvailableForRoom": true}
+		],
+		"perfectState": 1,
+		"Email": "room2@bb.com"
+    },
+	{
+        "Id": 619,
+        "StartWithOffset": "2018-09-25T16:45:00+02:00",
+		"EndWithOffset": "2018-09-25T18:00:00+02:00",
+		"Name": "Room five",
+		"options":[
+			{"Id": 11, "Description": "Beamer",  			"Icon": "mdi mdi-projector-screen", "Order": 1, "AvailableForRoom": true},
+			{"Id": 12, "Description": "Airco", 				"Icon": "mdi mdi-air-conditioner",  "Order": 2, "AvailableForRoom": true},
+			{"Id": 13, "Description": "Catering", 			"Icon": "mdi mdi-glass-flute",		"Order": 3, "AvailableForRoom": true},
+			{"Id": 15, "Description": "Draadloos internet", "Icon": "mdi mdi-wifi",     		"Order": 4, "AvailableForRoom": true},
+			{"Id": 16, "Description": "Bussstation",  		"Icon": "mdi mdi-bus", 				"Order": 5, "AvailableForRoom": true},
+			{"Id": 31, "Description": "Pijl", 				"Icon": "mdi mdi-arrow-top-right", 	"Order": 6, "AvailableForRoom": true}
+		],
+		"perfectState": 1,
+		"Email": "room5@bb.com"
+    }
+]
 }
