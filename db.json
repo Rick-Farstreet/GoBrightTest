@@ -70,22 +70,6 @@
 		],
 		"perfectState": 2,
 		"Email": "room3@bb.com"
-    },
-	{
-        "Id": 692,
-        "StartWithOffset": "2018-09-25T16:45:00+02:00",
-		"EndWithOffset": "2018-09-25T18:00:00+02:00",
-		"Name": "ruim Four",
-		"options":[
-			{"Id": 11, "Description": "Beamer",  			"Icon": "mdi mdi-projector-screen", "Order": 1, "AvailableForRoom": true},
-			{"Id": 12, "Description": "Airco", 				"Icon": "mdi mdi-air-conditioner",  "Order": 2, "AvailableForRoom": true},
-			{"Id": 13, "Description": "Catering", 			"Icon": "mdi mdi-glass-flute",		"Order": 3, "AvailableForRoom": true},
-			{"Id": 15, "Description": "Draadloos internet", "Icon": "mdi mdi-wifi",     		"Order": 4, "AvailableForRoom": true},
-			{"Id": 16, "Description": "Bussstation",  		"Icon": "mdi mdi-bus", 				"Order": 5, "AvailableForRoom": true},
-			{"Id": 31, "Description": "Pijl", 				"Icon": "mdi mdi-arrow-top-right", 	"Order": 6, "AvailableForRoom": true}
-		],
-		"perfectState": 1,
-		"Email": "room4@bb.com"
     }
 ],	
 	"queryspaces":[
@@ -143,22 +127,6 @@
 		],
 		"perfectState": 2,
 		"Email": "room3@bb.com"
-    },
-	{
-        "Id": 692,
-        "StartWithOffset": "2018-09-25T16:45:00+02:00",
-		"EndWithOffset": "2018-09-25T18:00:00+02:00",
-		"Name": "ruim Four",
-		"options":[
-			{"Id": 11, "Description": "Beamer",  			"Icon": "mdi mdi-projector-screen", "Order": 1, "AvailableForRoom": true},
-			{"Id": 12, "Description": "Airco", 				"Icon": "mdi mdi-air-conditioner",  "Order": 2, "AvailableForRoom": true},
-			{"Id": 13, "Description": "Catering", 			"Icon": "mdi mdi-glass-flute",		"Order": 3, "AvailableForRoom": true},
-			{"Id": 15, "Description": "Draadloos internet", "Icon": "mdi mdi-wifi",     		"Order": 4, "AvailableForRoom": true},
-			{"Id": 16, "Description": "Bussstation",  		"Icon": "mdi mdi-bus", 				"Order": 5, "AvailableForRoom": true},
-			{"Id": 31, "Description": "Pijl", 				"Icon": "mdi mdi-arrow-top-right", 	"Order": 6, "AvailableForRoom": true}
-		],
-		"perfectState": 1,
-		"Email": "room4@bb.com"
     }
 ]
 }
