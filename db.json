@@ -75,7 +75,7 @@
         "Id": 692,
         "StartWithOffset": "2018-09-25T16:45:00+02:00",
 		"EndWithOffset": "2018-09-25T18:00:00+02:00",
-		"Name": "%$@% Four",
+		"Name": "ruim%$@% Four",
 		"options":[
 			{"Id": 11, "Description": "Beamer",  			"Icon": "mdi mdi-projector-screen", "Order": 1, "AvailableForRoom": true},
 			{"Id": 12, "Description": "Airco", 				"Icon": "mdi mdi-air-conditioner",  "Order": 2, "AvailableForRoom": true},
@@ -165,7 +165,7 @@
         "Id": 692,
         "StartWithOffset": "2018-09-25T16:45:00+02:00",
 		"EndWithOffset": "2018-09-25T18:00:00+02:00",
-		"Name": "%$@% Four",
+		"Name": "ruim%$@% Four",
 		"options":[
 			{"Id": 11, "Description": "Beamer",  			"Icon": "mdi mdi-projector-screen", "Order": 1, "AvailableForRoom": true},
 			{"Id": 12, "Description": "Airco", 				"Icon": "mdi mdi-air-conditioner",  "Order": 2, "AvailableForRoom": true},
