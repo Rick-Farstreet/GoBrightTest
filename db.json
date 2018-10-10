@@ -50,7 +50,7 @@
         "Id": 67,
         "StartWithOffset": "2018-09-25T11:55:00+02:00",
 		"EndWithOffset": "2018-09-25T17:00:00+02:00",
-		"Name": "Room One",
+		"Name": "zRoom One",
 		"options":[
 			{"Id": 11, "Description": "Beamer",  			"Icon": "mdi mdi-projector-screen", "Order": 1, "AvailableForRoom": true},
 			{"Id": 12, "Description": "Airco", 				"Icon": "mdi mdi-air-conditioner",  "Order": 2, "AvailableForRoom": true},
@@ -75,7 +75,7 @@
         "Id": 692,
         "StartWithOffset": "2018-09-25T16:45:00+02:00",
 		"EndWithOffset": "2018-09-25T18:00:00+02:00",
-		"Name": "Room Four",
+		"Name": "%$@% Four",
 		"options":[
 			{"Id": 11, "Description": "Beamer",  			"Icon": "mdi mdi-projector-screen", "Order": 1, "AvailableForRoom": true},
 			{"Id": 12, "Description": "Airco", 				"Icon": "mdi mdi-air-conditioner",  "Order": 2, "AvailableForRoom": true},
@@ -124,7 +124,7 @@
         "Id": 67,
         "StartWithOffset": "2018-09-25T11:55:00+02:00",
 		"EndWithOffset": "2018-09-25T17:00:00+02:00",
-		"Name": "Room One",
+		"Name": "zRoom One",
 		"options":[
 			{"Id": 11, "Description": "Beamer",  			"Icon": "mdi mdi-projector-screen", "Order": 1, "AvailableForRoom": true},
 			{"Id": 12, "Description": "Airco", 				"Icon": "mdi mdi-air-conditioner",  "Order": 2, "AvailableForRoom": true},
@@ -138,7 +138,7 @@
         "Id": 69,
         "StartWithOffset": "2018-09-25T16:45:00+02:00",
 		"EndWithOffset": "2018-09-25T18:00:00+02:00",
-		"Name": "Room Four",
+		"Name": "%$@% Four",
 		"options":[
 			{"Id": 11, "Description": "Beamer",  			"Icon": "mdi mdi-projector-screen", "Order": 1, "AvailableForRoom": true},
 			{"Id": 12, "Description": "Airco", 				"Icon": "mdi mdi-air-conditioner",  "Order": 2, "AvailableForRoom": true},
