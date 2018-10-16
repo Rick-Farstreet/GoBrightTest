@@ -1,6 +1,6 @@
 {
 	"locations":[
-		{"Id": 2, "Name": "Alblasserdam",  "NameIdented": "- Allblasserdam", "Order": 1, "ParentId": 6, "TreeLeft": 2, "TreeRight": 7},
+		{"Id": 2, "Name": "AlblasserdamStadonopolis",  "NameIdented": "- Allblasserdam", "Order": 1, "ParentId": 6, "TreeLeft": 2, "TreeRight": 7},
 		{"Id": 23,"Name": "1e verdieping", "NameIdented": "- 1e verdieping", "Order": 1, "ParentId": 2, "TreeLeft": 3, "TreeRight": 4},
 		{"Id": 24,"Name": "2e verdieping", "NameIdented": "- 2e verdieping", "Order": 2, "ParentId": 2, "TreeLeft": 5, "TreeRight": 6},
 		{"Id": 1, "Name": "Rotterdam",     "NameIdented": "- Rotterdam",     "Order": 2, "ParentId": 6, "TreeLeft": 8, "TreeRight": 9}
