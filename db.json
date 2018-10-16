@@ -28,7 +28,8 @@
 			{"Id": 15, "Description": "Draadloos internet", "Icon": "mdi mdi-wifi",     		"Order": 4, "AvailableForRoom": true}
 		],
 		"perfectState": 0,
-		"Email": "SupportRoom@gobright.eu"
+		"Email": "SupportRoom@gobright.eu",
+		"Capasity": 16
     },
 	{
         "Id": 69,
@@ -44,7 +45,8 @@
 			{"Id": 31, "Description": "Pijl", 				"Icon": "mdi mdi-arrow-top-right", 	"Order": 6, "AvailableForRoom": true}
 		],
 		"perfectState": 1,
-		"Email": "room2@bb.com"
+		"Email": "room2@bb.com",
+		"Capasity": 32
     },
 	{
         "Id": 67,
@@ -58,7 +60,8 @@
 			{"Id": 15, "Description": "Draadloos internet", "Icon": "mdi mdi-wifi",     		"Order": 4, "AvailableForRoom": true}
 		],
 		"perfectState": 0,
-		"Email": "space@bb.com"
+		"Email": "space@bb.com",
+		"Capasity": 64
     },
 	{
         "Id": 17,
@@ -69,7 +72,8 @@
 			{"Id": 11, "Description": "Beamer",  			"Icon": "mdi mdi-projector-screen", "Order": 1, "AvailableForRoom": true}
 		],
 		"perfectState": 2,
-		"Email": "room3@bb.com"
+		"Email": "room3@bb.com",
+		"Capasity": 128
     }
 ],	
 	"queryspaces":[
@@ -85,7 +89,8 @@
 			{"Id": 15, "Description": "Draadloos internet", "Icon": "mdi mdi-wifi",     		"Order": 4, "AvailableForRoom": true}
 		],
 		"perfectState": 0,
-		"Email": "SupportRoom@gobright.eu"
+		"Email": "SupportRoom@gobright.eu",
+		"Capasity": 16
     },
 	{
         "Id": 69,
@@ -101,7 +106,8 @@
 			{"Id": 31, "Description": "Pijl", 				"Icon": "mdi mdi-arrow-top-right", 	"Order": 6, "AvailableForRoom": true}
 		],
 		"perfectState": 1,
-		"Email": "room2@bb.com"
+		"Email": "room2@bb.com",
+		"Capasity": 32
     },
 	{
         "Id": 67,
@@ -115,7 +121,9 @@
 			{"Id": 15, "Description": "Draadloos internet", "Icon": "mdi mdi-wifi",     		"Order": 4, "AvailableForRoom": true}
 		],
 		"perfectState": 0,
-		"Email": "space@bb.com"
+		"Email": "space@bb.com",
+		"Capasity": 64
+
     },
 	{
         "Id": 17,
@@ -126,7 +134,9 @@
 			{"Id": 11, "Description": "Beamer",  			"Icon": "mdi mdi-projector-screen", "Order": 1, "AvailableForRoom": true}
 		],
 		"perfectState": 2,
-		"Email": "room3@bb.com"
+		"Email": "room3@bb.com",
+		"Capasity": 128
+
     }
 ]
 }
