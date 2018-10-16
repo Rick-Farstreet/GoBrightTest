@@ -73,7 +73,7 @@
 		],
 		"perfectState": 2,
 		"Email": "room3@bb.com",
-		"Capasity": 128
+		"Capasity": 1280
     }
 ],	
 	"queryspaces":[
@@ -135,7 +135,7 @@
 		],
 		"perfectState": 2,
 		"Email": "room3@bb.com",
-		"Capasity": 128
+		"Capasity": 1280
 
     }
 ]
